@@ -1,0 +1,16 @@
+:root {
+  --dark: #222;
+  --light: #ddd;
+  --blue: #0d76ff;
+  --green: #48bb78;
+  --red: #e53e3e;
+  --mark: #fffbbf;
+}
+
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: var(--text);
+}

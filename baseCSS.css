@@ -1,0 +1,240 @@
+.pearl-bg {
+  background: linear-gradient(
+    312deg,
+    #833ab41a 0%,
+    #fd1d1d0d 50%,
+    #2f57fd0d 72%,
+    #fcb0451a 100%
+  );
+}
+
+.pearl-bg:hover {
+  color: #ddd;
+  background: #333;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+.white-bg:hover {
+  background: #999;
+}
+/* 10 Pixels */
+.br-10 {
+  border-radius: 10px;
+}
+
+.brt-10 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.brb-10 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.brtl-10 {
+  border-top-left-radius: 10px !important;
+}
+
+.brtr-10 {
+  border-top-right-radius: 10px !important;
+}
+
+.brbl-10 {
+  border-bottom-left-radius: 10px !important;
+}
+
+.brbr-10 {
+  border-bottom-right-radius: 10px !important;
+}
+/* 15 Pixels */
+.br-15 {
+  border-radius: 15px !important;
+}
+
+.brt-15 {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.brb-15 {
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+
+.brtl-15 {
+  border-top-left-radius: 15px !important;
+}
+
+.brtr-15 {
+  border-top-right-radius: 15px !important;
+}
+
+.brbl-15 {
+  border-bottom-left-radius: 15px !important;
+}
+
+.brbr-15 {
+  border-bottom-right-radius: 15px !important;
+}
+/* 25 Pixels */
+.br-25 {
+  border-radius: 25px !important;
+}
+
+.brt-25 {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+
+.brb-25 {
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+}
+
+.brtl-25 {
+  border-top-left-radius: 25px !important;
+}
+
+.brtr-25 {
+  border-top-right-radius: 25px !important;
+}
+
+.brbl-25 {
+  border-bottom-left-radius: 25px !important;
+}
+
+.brbr-25 {
+  border-bottom-right-radius: 25px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+mark {
+  background-color: var(--mark);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.boldest {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.lighter {
+  font-weight: 200;
+}
+
+.lightest {
+  font-weight: 100;
+}
+
+a,
+a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-largest {
+  font-size: 6rem;
+}
+
+.text-larger {
+  font-size: 5rem;
+}
+
+.text-large {
+  font-size: 4rem;
+}
+/* PHONE */
+@media (min-width: 0px) {
+  .screen-sm {
+    display: block !important;
+  }
+  .screen-lg {
+    display: none !important;
+  }
+}
+/* TABLET and up */
+@media (min-width: 768px) {
+  .screen-sm {
+    display: none !important;
+  }
+  .screen-lg {
+    display: block !important;
+  }
+}
+:root {
+  --dark: #222;
+  --light: #ddd;
+  --blue: #0d76ff;
+  --green: #48bb78;
+  --red: #e53e3e;
+  --mark: #fffbbf;
+}
+
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: var(--text);
+}
+.p-1 {
+  padding: 1px;
+}
+
+.p-2 {
+  padding: 4px;
+}
+
+.p-3 {
+  padding: 3em;
+}
+
+.p-4 {
+  padding: 4em;
+}

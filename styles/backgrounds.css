@@ -1,0 +1,22 @@
+.pearl-bg {
+  background: linear-gradient(
+    312deg,
+    #833ab41a 0%,
+    #fd1d1d0d 50%,
+    #2f57fd0d 72%,
+    #fcb0451a 100%
+  );
+}
+
+.pearl-bg:hover {
+  color: #ddd;
+  background: #333;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+.white-bg:hover {
+  background: #999;
+}

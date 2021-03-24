@@ -1,0 +1,18 @@
+/* PHONE */
+@media (min-width: 0px) {
+  .screen-sm {
+    display: block !important;
+  }
+  .screen-lg {
+    display: none !important;
+  }
+}
+/* TABLET and up */
+@media (min-width: 768px) {
+  .screen-sm {
+    display: none !important;
+  }
+  .screen-lg {
+    display: block !important;
+  }
+}

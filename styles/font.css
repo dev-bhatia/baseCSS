@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+mark {
+  background-color: var(--mark);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.boldest {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.lighter {
+  font-weight: 200;
+}
+
+.lightest {
+  font-weight: 100;
+}
+
+a,
+a:visited {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-largest {
+  font-size: 6rem;
+}
+
+.text-larger {
+  font-size: 5rem;
+}
+
+.text-large {
+  font-size: 4rem;
+}
